@@ -1,0 +1,12 @@
+bulldog (0.1.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * 
+
+ --  rahul <rahul@shatkonlabs.com>  Tue, 23 Aug 2016 14:32:45 +0530
+
+bulldog (0.1.0) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Rahul <rahul@shatkonlabs.com>  Wed, 30 Mar 2015 14:05:16 +0530

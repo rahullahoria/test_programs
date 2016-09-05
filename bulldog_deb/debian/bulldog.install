@@ -1,0 +1,3 @@
+bulldog /usr/bin/
+usageTracker.py /usr/share/python/
+bulldog.desktop $HOME/.config/autostart/

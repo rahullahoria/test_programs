@@ -1,0 +1,4 @@
+#!/bin/bash
+env > /tmp/env.out
+sleep 60;nohup python /usr/share/python/usageTracker.py > /tmp/bullRS.out&
+date > /tmp/blr.log

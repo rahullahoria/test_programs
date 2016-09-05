@@ -5,6 +5,10 @@ import os
 import time
 import requests
 from gi.repository import Gtk, Wnck
+import pymouse
+
+mouse = pymouse.PyMouse()
+print mouse.position()
 
 usageInMin = {'startAt':int(time.time())}
 programInstance = {'Iceweasel': -2,'PhpStorm 10.0.3':0}
@@ -46,7 +50,8 @@ while 1:
 		##print len(window_list)
 		active_window = screen.get_active_window()
 
-		program = active_window.get_name().split('-')[-1].strip()
+		#program = active_window.get_name().split('-')[-1].strip()
+		program = active_window.get_application().get_name().split('-')[-1].strip()
 		##print program
 
 		instance = "unknown"	

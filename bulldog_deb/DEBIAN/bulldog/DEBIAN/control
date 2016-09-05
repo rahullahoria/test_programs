@@ -1,0 +1,10 @@
+Package: bulldog
+Version: 0.1.1
+Architecture: all
+Maintainer: rahul <rahul@shatkonlabs.com>
+Installed-Size: 50
+Depends: cc-region, muspystache
+Section: unknown
+Priority: extra
+Homepage: <insert the upstream URL, if relevant>
+Description: nucleus-admin-ui vhost

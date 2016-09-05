@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo chmod +x /usr/bin/bulldog
+sudo chmod +x /usr/share/python/usageTracker.py
+
